@@ -1,0 +1,40 @@
+.services-submenu {
+  width: 10rem;
+  position: absolute;
+  top: 70px;
+
+  border: 2px solid #f2f3f5;
+  box-shadow: -5px 10px 20px #f2f3f5;
+  background-color: none;
+  border-radius: 10px;
+
+  text-align: start;
+  list-style: none;
+
+  li {
+    cursor: pointer;
+  }
+
+  @media screen and (max-width:970px) {
+    display: none;
+  }
+}
+
+.services-submenu.click {
+  display: none;
+}
+
+.submenu-item {
+  display: block;
+  width: 100%;
+  height: 100%;
+
+  color: #222;
+  transition: 0.2s all ease-out;
+
+  padding: 16px;
+
+  &:hover {
+    background: #f2f3f5;
+  }
+}

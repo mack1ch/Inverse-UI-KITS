@@ -1,0 +1,24 @@
+.btn {
+  border: 1.8px solid #366AF3;
+  background-color: none;
+  border-radius: 100px;
+
+  padding: 7px 40px;
+
+  font-size: 1.1rem;
+  font-family: Header;
+  line-height: 130%;
+  text-align: center;
+  font-weight: 500;
+
+  color: #366AF3;
+
+  transition: 0.2s all ease-out;
+  cursor: pointer;  
+}
+
+.btn:hover {
+    background-color: #366AF3;
+    border: 2px solid #366AF3;
+    color: #fff;
+}
