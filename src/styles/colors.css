@@ -1,0 +1,17 @@
+
+
+:root{
+/* Background */
+    --bg-color: #fff;
+    --button-main-color: #222;
+    --button-middle-color: #366AF3;
+    --main-card-color: #366AF3;
+    --middle-card-color: #555555;
+    --mini-card-color: #F2F3F5;
+
+/* Textes */
+    --text-color-white: #fff
+    --text-color-black: #222;
+    --title-color: #366AF3;
+    --text-color-footer-grey: #99A2AD
+}
